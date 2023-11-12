@@ -1,0 +1,6 @@
+pypdf2
+easyocr
+streamlit
+llama_index
+openai
+youtube_transcript_api
