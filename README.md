@@ -30,4 +30,4 @@ The Llama Index is employed to vectorize textual data, allowing the GPT 3.5 Turb
 
 **Developers:** 
 - [me](https://divine-architect.xyz)
-- Yash Sharma [RVCE]
+- Yash Sharma
