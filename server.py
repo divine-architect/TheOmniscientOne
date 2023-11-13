@@ -195,8 +195,5 @@ if st.session_state.messages[-1]["role"] != "assistant":
         with st.spinner("Thinking..."):
             response = st.session_state.chat_engine.chat(prompt)
             st.write(response.response)
-            translator= Translator(to_lang="hi")
-            translation = translator.translate(response.response)
-
             message = {"role": "assistant", "content": response.response}
             st.session_state.messages.append(message) 
